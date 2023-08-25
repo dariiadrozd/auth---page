@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: "Poppins";
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1440px;
+}
+
+body .fistPart {
+    width: 750px;
+    height: 990px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background: #e2f0ff;
+}
+
+body .fistPart .img {
+    background-image: url(./assests.img/1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 524px;
+    height: 391px;
+    margin: 174px 0 0 93px;
+}
+
+body .fistPart h1 {
+    color: #292731;
+    text-align: center;
+    font: 600 26px "Poppins";
+    line-height: 131.5%;
+    width: 400px;
+    height: 68px;
+    margin: 56px 0 0 150px;
+}
+
+body .fistPart p {
+    color: #455360;
+    text-align: center;
+    font: 400 16px "Poppins";
+    line-height: 170%;
+    width: 386px;
+    height: 54px;
+    margin: 23px 0 0 160px;
+}
+
+body .secondPart {
+    text-align: start;
+    margin: 166px 0 0 135px;
+}
+
+body .secondPart .welcome .img_2 {
+    background-image: url(./assests.img/waving-hand.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+}
+
+body .secondPart .welcome h1 {
+    color: #292731;
+    font: 600 30px "Poppins";
+    margin-top: 12px;
+}
+
+body .secondPart .welcome p {
+    color: #292731;
+    font: 400 16px "Poppins";
+    line-height: 170%;
+    margin-top: 12px;
+}
+
+body .secondPart .gmail {
+    margin-top: 50px;
+}
+
+body .secondPart .gmail div {
+    display: flex;
+}
+
+body .secondPart .gmail div p {
+    color: var(--text-gray, #455360);
+    font: 500 16px 'Poppins';
+}
+
+body .secondPart .gmail div .img_3 {
+    background-image: url(./assests.img/information.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-left: 225px;
+}
+
+body .secondPart .gmail input {
+    display: flex;
+    width: 425px;
+    height: 40px;
+    padding: 8px 0 6px 15px;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--input-field, #ecf2f7);
+    color: var(--text-light-gray, #7b8389);
+    font: 400 16px Poppins;
+    margin-top: 10px;
+}
+
+
+body .secondPart .password p {
+    color: #455360;
+    font: 500 16px "Poppins";
+    margin-top: 30px;
+}
+
+body .secondPart .password input {
+    margin-top: 10px;
+    display: flex;
+    width: 425px;
+    height: 40px;
+    padding: 8px 0 6px 15px;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--input-field, #ecf2f7);
+    color: var(--text-light-gray, #7b8389);
+    font: 400 16px 'Poppins';
+}
+
+
+body .secondPart button {
+    margin-top: 44px;
+    border-radius: 8px;
+    background: #4c70ff;
+    width: 443px;
+    height: 54px;
+    color: #fff;
+    font: 500 20px "Poppins";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+body .secondPart .emailInput {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 19px;
+}
+
+body .secondPart .emailInput h3 {
+    color: #292731;
+    font: 500 16px "Poppins";
+    margin-right: 5px;
+}
+
+body .secondPart .emailInput div h3 {
+    color: #66bce8;
+    font: 500 16px "Poppins";
+    margin-left: 5px;
+    text-decoration: none;
+
+}
+
+body .secondPart .password2 p{
+    margin-top: 30px;
+    color: #455360;
+    font: 500 16px 'Poppins';
+}
+
+
+body .secondPart .password2 input{
+    margin-top: 10px;
+    display: flex;
+    width: 425px;
+    height: 40px;
+    padding: 8px 0 6px 15px;
+    align-items: center;
+    border-radius: 4px;
+    background:#ecf2f7;
+    color:  #7b8389;
+    font: 400 16px Poppins;
+
+}
